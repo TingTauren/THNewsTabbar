@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0412F4C41D18CD5200B3CECA /* UIColor+changeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0412F4C31D18CD5200B3CECA /* UIColor+changeImage.m */; };
+		0412F4C81D18D85C00B3CECA /* OperateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0412F4C71D18D85C00B3CECA /* OperateView.m */; };
+		04B089C31D17E037005B66CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B089C21D17E037005B66CD /* main.m */; };
+		04B089C61D17E037005B66CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B089C51D17E037005B66CD /* AppDelegate.m */; };
+		04B089C91D17E037005B66CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B089C81D17E037005B66CD /* ViewController.m */; };
+		04B089CC1D17E037005B66CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B089CA1D17E037005B66CD /* Main.storyboard */; };
+		04B089CE1D17E037005B66CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B089CD1D17E037005B66CD /* Assets.xcassets */; };
+		04B089D11D17E037005B66CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B089CF1D17E037005B66CD /* LaunchScreen.storyboard */; };
+		04B089DC1D17E037005B66CD /* THNewsTabbarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B089DB1D17E037005B66CD /* THNewsTabbarTests.m */; };
+		04B089E71D17E037005B66CD /* THNewsTabbarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B089E61D17E037005B66CD /* THNewsTabbarUITests.m */; };
+		04B08A021D17E785005B66CD /* BottomScrollerSuperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B089F71D17E784005B66CD /* BottomScrollerSuperView.m */; };
+		04B08A031D17E785005B66CD /* BottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B089F91D17E785005B66CD /* BottomView.m */; };
+		04B08A041D17E785005B66CD /* THTopMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B089FC1D17E785005B66CD /* THTopMenuItem.m */; };
+		04B08A051D17E785005B66CD /* THTopMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B089FE1D17E785005B66CD /* THTopMenuView.m */; };
+		04B08A061D17E785005B66CD /* THTabbarNounView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B08A011D17E785005B66CD /* THTabbarNounView.m */; };
+		04F5DEEE1D1CD86800CDE9C6 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F5DEED1D1CD86800CDE9C6 /* add.png */; };
+		04F5DEF21D1CD87000CDE9C6 /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F5DEF01D1CD87000CDE9C6 /* delete.png */; };
+		04F5DEF31D1CD87000CDE9C6 /* delete2.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F5DEF11D1CD87000CDE9C6 /* delete2.png */; };
+		04F5DF261D1D1BC000CDE9C6 /* TEXTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F5DF251D1D1BC000CDE9C6 /* TEXTView.m */; };
+		04FB8BBE1D1A7438001D0C53 /* TagsAddViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FB8BBD1D1A7438001D0C53 /* TagsAddViewModel.m */; };
+		04FB8BC11D1A7545001D0C53 /* TagsAddViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FB8BC01D1A7545001D0C53 /* TagsAddViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04B089D81D17E037005B66CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B089B61D17E037005B66CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04B089BD1D17E037005B66CD;
+			remoteInfo = THNewsTabbar;
+		};
+		04B089E31D17E037005B66CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B089B61D17E037005B66CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04B089BD1D17E037005B66CD;
+			remoteInfo = THNewsTabbar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0412F4C21D18CD5200B3CECA /* UIColor+changeImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+changeImage.h"; sourceTree = "<group>"; };
+		0412F4C31D18CD5200B3CECA /* UIColor+changeImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+changeImage.m"; sourceTree = "<group>"; };
+		0412F4C61D18D85C00B3CECA /* OperateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperateView.h; sourceTree = "<group>"; };
+		0412F4C71D18D85C00B3CECA /* OperateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperateView.m; sourceTree = "<group>"; };
+		04B089BE1D17E037005B66CD /* THNewsTabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = THNewsTabbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B089C21D17E037005B66CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04B089C41D17E037005B66CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04B089C51D17E037005B66CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04B089C71D17E037005B66CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04B089C81D17E037005B66CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04B089CB1D17E037005B66CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04B089CD1D17E037005B66CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04B089D01D17E037005B66CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04B089D21D17E037005B66CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B089D71D17E037005B66CD /* THNewsTabbarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = THNewsTabbarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B089DB1D17E037005B66CD /* THNewsTabbarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THNewsTabbarTests.m; sourceTree = "<group>"; };
+		04B089DD1D17E037005B66CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B089E21D17E037005B66CD /* THNewsTabbarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = THNewsTabbarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B089E61D17E037005B66CD /* THNewsTabbarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THNewsTabbarUITests.m; sourceTree = "<group>"; };
+		04B089E81D17E037005B66CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B089F61D17E784005B66CD /* BottomScrollerSuperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomScrollerSuperView.h; sourceTree = "<group>"; };
+		04B089F71D17E784005B66CD /* BottomScrollerSuperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomScrollerSuperView.m; sourceTree = "<group>"; };
+		04B089F81D17E784005B66CD /* BottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomView.h; sourceTree = "<group>"; };
+		04B089F91D17E785005B66CD /* BottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomView.m; sourceTree = "<group>"; };
+		04B089FB1D17E785005B66CD /* THTopMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THTopMenuItem.h; sourceTree = "<group>"; };
+		04B089FC1D17E785005B66CD /* THTopMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THTopMenuItem.m; sourceTree = "<group>"; };
+		04B089FD1D17E785005B66CD /* THTopMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THTopMenuView.h; sourceTree = "<group>"; };
+		04B089FE1D17E785005B66CD /* THTopMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THTopMenuView.m; sourceTree = "<group>"; };
+		04B08A001D17E785005B66CD /* THTabbarNounView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THTabbarNounView.h; sourceTree = "<group>"; };
+		04B08A011D17E785005B66CD /* THTabbarNounView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THTabbarNounView.m; sourceTree = "<group>"; };
+		04F5DEED1D1CD86800CDE9C6 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		04F5DEF01D1CD87000CDE9C6 /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
+		04F5DEF11D1CD87000CDE9C6 /* delete2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete2.png; sourceTree = "<group>"; };
+		04F5DF241D1D1BC000CDE9C6 /* TEXTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEXTView.h; sourceTree = "<group>"; };
+		04F5DF251D1D1BC000CDE9C6 /* TEXTView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEXTView.m; sourceTree = "<group>"; };
+		04FB8BBC1D1A7438001D0C53 /* TagsAddViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagsAddViewModel.h; sourceTree = "<group>"; };
+		04FB8BBD1D1A7438001D0C53 /* TagsAddViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagsAddViewModel.m; sourceTree = "<group>"; };
+		04FB8BBF1D1A7545001D0C53 /* TagsAddViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagsAddViewCell.h; sourceTree = "<group>"; };
+		04FB8BC01D1A7545001D0C53 /* TagsAddViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagsAddViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04B089BB1D17E037005B66CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B089D41D17E037005B66CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B089DF1D17E037005B66CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0412F4C11D18CD5200B3CECA /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				0412F4C21D18CD5200B3CECA /* UIColor+changeImage.h */,
+				0412F4C31D18CD5200B3CECA /* UIColor+changeImage.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		0412F4C51D18D83400B3CECA /* operateView */ = {
+			isa = PBXGroup;
+			children = (
+				04F5DEEF1D1CD87000CDE9C6 /* IMAGES */,
+				04FB8BBB1D1A73EA001D0C53 /* views */,
+				0412F4C61D18D85C00B3CECA /* OperateView.h */,
+				0412F4C71D18D85C00B3CECA /* OperateView.m */,
+			);
+			path = operateView;
+			sourceTree = "<group>";
+		};
+		04B089B51D17E037005B66CD = {
+			isa = PBXGroup;
+			children = (
+				04B089C01D17E037005B66CD /* THNewsTabbar */,
+				04B089DA1D17E037005B66CD /* THNewsTabbarTests */,
+				04B089E51D17E037005B66CD /* THNewsTabbarUITests */,
+				04B089BF1D17E037005B66CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04B089BF1D17E037005B66CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04B089BE1D17E037005B66CD /* THNewsTabbar.app */,
+				04B089D71D17E037005B66CD /* THNewsTabbarTests.xctest */,
+				04B089E21D17E037005B66CD /* THNewsTabbarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04B089C01D17E037005B66CD /* THNewsTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				0412F4C51D18D83400B3CECA /* operateView */,
+				0412F4C11D18CD5200B3CECA /* Category */,
+				04B089F41D17E784005B66CD /* THTabbarView */,
+				04B089C41D17E037005B66CD /* AppDelegate.h */,
+				04B089C51D17E037005B66CD /* AppDelegate.m */,
+				04B089C71D17E037005B66CD /* ViewController.h */,
+				04B089C81D17E037005B66CD /* ViewController.m */,
+				04F5DF241D1D1BC000CDE9C6 /* TEXTView.h */,
+				04F5DF251D1D1BC000CDE9C6 /* TEXTView.m */,
+				04B089CA1D17E037005B66CD /* Main.storyboard */,
+				04B089CD1D17E037005B66CD /* Assets.xcassets */,
+				04B089CF1D17E037005B66CD /* LaunchScreen.storyboard */,
+				04B089D21D17E037005B66CD /* Info.plist */,
+				04B089C11D17E037005B66CD /* Supporting Files */,
+			);
+			path = THNewsTabbar;
+			sourceTree = "<group>";
+		};
+		04B089C11D17E037005B66CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04B089C21D17E037005B66CD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04B089DA1D17E037005B66CD /* THNewsTabbarTests */ = {
+			isa = PBXGroup;
+			children = (
+				04B089DB1D17E037005B66CD /* THNewsTabbarTests.m */,
+				04B089DD1D17E037005B66CD /* Info.plist */,
+			);
+			path = THNewsTabbarTests;
+			sourceTree = "<group>";
+		};
+		04B089E51D17E037005B66CD /* THNewsTabbarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04B089E61D17E037005B66CD /* THNewsTabbarUITests.m */,
+				04B089E81D17E037005B66CD /* Info.plist */,
+			);
+			path = THNewsTabbarUITests;
+			sourceTree = "<group>";
+		};
+		04B089F41D17E784005B66CD /* THTabbarView */ = {
+			isa = PBXGroup;
+			children = (
+				04F5DEEC1D1CD86800CDE9C6 /* IMAGES */,
+				04B089F51D17E784005B66CD /* BottomScrollerView */,
+				04B089FA1D17E785005B66CD /* THCreateView */,
+				04B089FF1D17E785005B66CD /* THtabbarNounView */,
+			);
+			path = THTabbarView;
+			sourceTree = "<group>";
+		};
+		04B089F51D17E784005B66CD /* BottomScrollerView */ = {
+			isa = PBXGroup;
+			children = (
+				04B089F61D17E784005B66CD /* BottomScrollerSuperView.h */,
+				04B089F71D17E784005B66CD /* BottomScrollerSuperView.m */,
+				04B089F81D17E784005B66CD /* BottomView.h */,
+				04B089F91D17E785005B66CD /* BottomView.m */,
+			);
+			path = BottomScrollerView;
+			sourceTree = "<group>";
+		};
+		04B089FA1D17E785005B66CD /* THCreateView */ = {
+			isa = PBXGroup;
+			children = (
+				04B089FB1D17E785005B66CD /* THTopMenuItem.h */,
+				04B089FC1D17E785005B66CD /* THTopMenuItem.m */,
+				04B089FD1D17E785005B66CD /* THTopMenuView.h */,
+				04B089FE1D17E785005B66CD /* THTopMenuView.m */,
+			);
+			path = THCreateView;
+			sourceTree = "<group>";
+		};
+		04B089FF1D17E785005B66CD /* THtabbarNounView */ = {
+			isa = PBXGroup;
+			children = (
+				04B08A001D17E785005B66CD /* THTabbarNounView.h */,
+				04B08A011D17E785005B66CD /* THTabbarNounView.m */,
+			);
+			path = THtabbarNounView;
+			sourceTree = "<group>";
+		};
+		04F5DEEC1D1CD86800CDE9C6 /* IMAGES */ = {
+			isa = PBXGroup;
+			children = (
+				04F5DEED1D1CD86800CDE9C6 /* add.png */,
+			);
+			path = IMAGES;
+			sourceTree = "<group>";
+		};
+		04F5DEEF1D1CD87000CDE9C6 /* IMAGES */ = {
+			isa = PBXGroup;
+			children = (
+				04F5DEF01D1CD87000CDE9C6 /* delete.png */,
+				04F5DEF11D1CD87000CDE9C6 /* delete2.png */,
+			);
+			path = IMAGES;
+			sourceTree = "<group>";
+		};
+		04FB8BBB1D1A73EA001D0C53 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				04FB8BBC1D1A7438001D0C53 /* TagsAddViewModel.h */,
+				04FB8BBD1D1A7438001D0C53 /* TagsAddViewModel.m */,
+				04FB8BBF1D1A7545001D0C53 /* TagsAddViewCell.h */,
+				04FB8BC01D1A7545001D0C53 /* TagsAddViewCell.m */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04B089BD1D17E037005B66CD /* THNewsTabbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B089EB1D17E037005B66CD /* Build configuration list for PBXNativeTarget "THNewsTabbar" */;
+			buildPhases = (
+				04B089BA1D17E037005B66CD /* Sources */,
+				04B089BB1D17E037005B66CD /* Frameworks */,
+				04B089BC1D17E037005B66CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = THNewsTabbar;
+			productName = THNewsTabbar;
+			productReference = 04B089BE1D17E037005B66CD /* THNewsTabbar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04B089D61D17E037005B66CD /* THNewsTabbarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B089EE1D17E037005B66CD /* Build configuration list for PBXNativeTarget "THNewsTabbarTests" */;
+			buildPhases = (
+				04B089D31D17E037005B66CD /* Sources */,
+				04B089D41D17E037005B66CD /* Frameworks */,
+				04B089D51D17E037005B66CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04B089D91D17E037005B66CD /* PBXTargetDependency */,
+			);
+			name = THNewsTabbarTests;
+			productName = THNewsTabbarTests;
+			productReference = 04B089D71D17E037005B66CD /* THNewsTabbarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04B089E11D17E037005B66CD /* THNewsTabbarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B089F11D17E037005B66CD /* Build configuration list for PBXNativeTarget "THNewsTabbarUITests" */;
+			buildPhases = (
+				04B089DE1D17E037005B66CD /* Sources */,
+				04B089DF1D17E037005B66CD /* Frameworks */,
+				04B089E01D17E037005B66CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04B089E41D17E037005B66CD /* PBXTargetDependency */,
+			);
+			name = THNewsTabbarUITests;
+			productName = THNewsTabbarUITests;
+			productReference = 04B089E21D17E037005B66CD /* THNewsTabbarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04B089B61D17E037005B66CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					04B089BD1D17E037005B66CD = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					04B089D61D17E037005B66CD = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 04B089BD1D17E037005B66CD;
+					};
+					04B089E11D17E037005B66CD = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 04B089BD1D17E037005B66CD;
+					};
+				};
+			};
+			buildConfigurationList = 04B089B91D17E037005B66CD /* Build configuration list for PBXProject "THNewsTabbar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04B089B51D17E037005B66CD;
+			productRefGroup = 04B089BF1D17E037005B66CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04B089BD1D17E037005B66CD /* THNewsTabbar */,
+				04B089D61D17E037005B66CD /* THNewsTabbarTests */,
+				04B089E11D17E037005B66CD /* THNewsTabbarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04B089BC1D17E037005B66CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B089D11D17E037005B66CD /* LaunchScreen.storyboard in Resources */,
+				04B089CE1D17E037005B66CD /* Assets.xcassets in Resources */,
+				04B089CC1D17E037005B66CD /* Main.storyboard in Resources */,
+				04F5DEF31D1CD87000CDE9C6 /* delete2.png in Resources */,
+				04F5DEF21D1CD87000CDE9C6 /* delete.png in Resources */,
+				04F5DEEE1D1CD86800CDE9C6 /* add.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B089D51D17E037005B66CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B089E01D17E037005B66CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04B089BA1D17E037005B66CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B08A061D17E785005B66CD /* THTabbarNounView.m in Sources */,
+				04B089C91D17E037005B66CD /* ViewController.m in Sources */,
+				04F5DF261D1D1BC000CDE9C6 /* TEXTView.m in Sources */,
+				04FB8BBE1D1A7438001D0C53 /* TagsAddViewModel.m in Sources */,
+				04B08A051D17E785005B66CD /* THTopMenuView.m in Sources */,
+				0412F4C81D18D85C00B3CECA /* OperateView.m in Sources */,
+				04B08A021D17E785005B66CD /* BottomScrollerSuperView.m in Sources */,
+				04B089C61D17E037005B66CD /* AppDelegate.m in Sources */,
+				04B08A041D17E785005B66CD /* THTopMenuItem.m in Sources */,
+				0412F4C41D18CD5200B3CECA /* UIColor+changeImage.m in Sources */,
+				04B08A031D17E785005B66CD /* BottomView.m in Sources */,
+				04B089C31D17E037005B66CD /* main.m in Sources */,
+				04FB8BC11D1A7545001D0C53 /* TagsAddViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B089D31D17E037005B66CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B089DC1D17E037005B66CD /* THNewsTabbarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B089DE1D17E037005B66CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B089E71D17E037005B66CD /* THNewsTabbarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04B089D91D17E037005B66CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04B089BD1D17E037005B66CD /* THNewsTabbar */;
+			targetProxy = 04B089D81D17E037005B66CD /* PBXContainerItemProxy */;
+		};
+		04B089E41D17E037005B66CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04B089BD1D17E037005B66CD /* THNewsTabbar */;
+			targetProxy = 04B089E31D17E037005B66CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04B089CA1D17E037005B66CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04B089CB1D17E037005B66CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04B089CF1D17E037005B66CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04B089D01D17E037005B66CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04B089E91D17E037005B66CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04B089EA1D17E037005B66CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04B089EC1D17E037005B66CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = THNewsTabbar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xueyib..THNewsTabbar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04B089ED1D17E037005B66CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = THNewsTabbar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xueyib..THNewsTabbar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04B089EF1D17E037005B66CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = THNewsTabbarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xueyib..THNewsTabbarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/THNewsTabbar.app/THNewsTabbar";
+			};
+			name = Debug;
+		};
+		04B089F01D17E037005B66CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = THNewsTabbarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xueyib..THNewsTabbarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/THNewsTabbar.app/THNewsTabbar";
+			};
+			name = Release;
+		};
+		04B089F21D17E037005B66CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = THNewsTabbarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xueyib..THNewsTabbarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = THNewsTabbar;
+			};
+			name = Debug;
+		};
+		04B089F31D17E037005B66CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = THNewsTabbarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xueyib..THNewsTabbarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = THNewsTabbar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04B089B91D17E037005B66CD /* Build configuration list for PBXProject "THNewsTabbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B089E91D17E037005B66CD /* Debug */,
+				04B089EA1D17E037005B66CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B089EB1D17E037005B66CD /* Build configuration list for PBXNativeTarget "THNewsTabbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B089EC1D17E037005B66CD /* Debug */,
+				04B089ED1D17E037005B66CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B089EE1D17E037005B66CD /* Build configuration list for PBXNativeTarget "THNewsTabbarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B089EF1D17E037005B66CD /* Debug */,
+				04B089F01D17E037005B66CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B089F11D17E037005B66CD /* Build configuration list for PBXNativeTarget "THNewsTabbarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B089F21D17E037005B66CD /* Debug */,
+				04B089F31D17E037005B66CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04B089B61D17E037005B66CD /* Project object */;
+}
